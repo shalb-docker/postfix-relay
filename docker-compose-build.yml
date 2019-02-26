@@ -1,0 +1,7 @@
+version: '2'
+services:
+  postfix-relay:
+    build:
+      context: ./
+    image: shalb/postfix-relay:0.0.1
+
