@@ -3,9 +3,9 @@ services:
   postfix-relay:
     image: shalb/postfix-relay:0.0.1
     volumes:
-      - ./main.cf:/etc/postfix/main.cf
-   #  - ./var/spool/postfix:/var/spool/postfix
-   #  - ./var/spool/mail:/var/spool/mail
+      - ./postfix-relay/main.cf:/etc/postfix/main.cf
+   #  - ./postfix-relay/var/spool/postfix:/var/spool/postfix
+   #  - ./postfix-relay/var/spool/mail:/var/spool/mail
     restart: always
     ports:
       - "127.0.0.1:25:25"

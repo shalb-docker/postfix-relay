@@ -20,7 +20,7 @@ bash add_variables.sh
 
 ## run
 
-Use docker-compose.yml to run container with mounted config ./main.cf
+Use docker-compose.yml to run container with mounted config ./postfix-relay/main.cf
 ~~~~
 docker-compose up
 ~~~~
