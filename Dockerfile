@@ -2,7 +2,7 @@ FROM alpine:3.6
 
 RUN apk add --no-cache postfix cyrus-sasl rsyslog
 
-ADD main.cf /etc/postfix/
+ADD postfix-relay/main.cf /etc/postfix/
 
 ADD postfix-wrapper.sh /
 ADD cert.pem /etc/ssl/
