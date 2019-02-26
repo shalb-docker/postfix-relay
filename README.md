@@ -1,5 +1,6 @@
-# snmp-exporter
-snmp exporter for prometheus monitoring
+# postfix-relay
+
+postfix-relay container, which needed if we need mail server in our stack
 
 ## build
 
